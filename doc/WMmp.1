@@ -1,0 +1,79 @@
+.\"                                      Hey, EMACS: -*- nroff -*-
+.\" First parameter, NAME, should be all caps
+.\" Second parameter, SECTION, should be 1-8, maybe w/ subsection
+.\" other parameters are allowed: see man(7), man(1)
+.TH WMXMMS 1 "March 29, 2003"
+.\" Please adjust this date whenever revising the man page.
+.\"
+.\" Some roff macros, for reference:
+.\" .nh        disable hyphenation
+.\" .hy        enable hyphenation
+.\" .ad l      left justify
+.\" .ad b      justify to both left and right margins
+.\" .nf        disable filling
+.\" .fi        enable filling
+.\" .br        insert line break
+.\" .sp <n>    insert n+1 empty lines
+.\" for man page-specific macros, see man(7)
+.SH NAME
+WMmp \- A dockapp to interface with mpd
+.SH SYNOPSIS
+.B WMmp [options]
+.SH DESCRIPTION
+This manual page documents briefly the
+.B WMmp
+command.
+.PP
+.\" TeX users may be more comfortable with the \fB<whatever>\fP and
+.\" \fI<whatever>\fP escape sequences to invode bold face and italics, 
+.\" respectively.
+\fBWMmp\fP is a dockapp to interface and control mpd. It is a dockapp 
+that is supported by X window managers such as Window Maker, AfterStep, BlackBox, and
+Enlightenment.
+
+The song title and time is displayed in the top half.  The controls are
+in the bottom half and reflect settings on mpd.
+It has an LCD look-alike user interface.
+The back-light may be turned on/off by clicking the mouse button 3 (right)
+over the application.
+ 
+You must set the MPD_HOST and MPD_PORT environment variables to run \fBWMmp\fP.  (If you use a password to contact mpd, set MPD_HOST to "password@host".)
+.SH OPTIONS
+This program follows the usual GNU command line syntax, with long options
+starting with two dashes (`\-'). A summary of options is included below.
+.TP
+.B \-d,  \-\-display <string>
+Attempt to open a window on the named X display. In the absence of  this option,
+the  display  specified  by the
+.B DISPLAY
+environment variable is used.
+.TP
+.B \-bl, \-\-backlight
+turn on back-light
+.TP
+.B \-lc, \-\-light\-color <color>
+back-light color (rgb:6E/C6/3B is default)
+.TP
+.B \-i,  \-\-interval <number>
+number of secs between updates (1 is default)
+.TP
+.B \-h,  \-\-help
+show help text and exit
+.TP
+.B \-v,  \-\-version
+show program version and exit
+.TP
+.B \-w,  \-\-windowed
+run the application in windowed mode
+.TP
+.B \-bw, \-\-broken\-wm
+activate broken window manager fix
+.TP
+
+.SH AUTHOR
+WMmp was assembled by Anthony Peacock <bratag44@hotmail.com> It is based on code/design by
+Thomas Nemeth <tnemeth@free.fr>.  It is largely based on WMMemMon and WMCPULoad by Seiichi 
+SATO <ssato@sh.rim.or.jp>, WMMemLoad by Mark Staggs <me@markstaggs.net> and wmapm by Chris D. 
+Faulhaber <jedgar@speck.ml.org> Michael G. Henderson <mghenderson@lanl.gov>. In addition wmusic 
+by Hadess <hadess@hadess.net> and maintained by John <john+wmusic@jtan.com> was used as design
+inspiration.

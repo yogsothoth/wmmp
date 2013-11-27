@@ -1,0 +1,34 @@
+                                 INSTALL - WMmp
+                         Window Maker Dockapp for MPD
+			    http://musicpd.sf.net
+
+requirements:
+-------------
+MPD >= 0.8.1
+
+compile:
+--------
+1) ./configure
+2) make
+
+install:
+--------
+make install
+
+run:
+----
+
+1) Set environment variables MPD_HOST and MPD_PORT (this is probably good to
+put in your bashrc).
+
+example:
+$ export MPD_HOST=localhost
+$ export MPD_PORT=2100
+
+If you use a password to access MPD, then do:
+$ export MPD_HOST=password@localhost
+
+2) run WMmp
+
+example:
+$ WMmp
