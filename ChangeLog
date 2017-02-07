@@ -1,3 +1,8 @@
+ver 0.11.0 (2/7/2017)
+1) Fixed mouse wheel support
+2) Changed network structures
+3) Finally prepared a proper release!
+
 ver 0.10.0 (3/4/2004)
 1) Add password support
 
