@@ -117,7 +117,7 @@ freebsd*)
   ignore_wired=yes
   ignore_cached=yes
   LIBS="$LIBS -lkvm"
-  SETGID_FLAGS="-g kmem -m 2755 -o root"
+  SETGID_FLAGS="-g wheel -m 0755 -o root"
   ;;
 openbsd*)
   OS=openbsd
