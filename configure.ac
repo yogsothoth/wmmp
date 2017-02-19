@@ -1,15 +1,14 @@
 dnl Process this file with autoconf to produce a configure script.
 AC_PREREQ(2.52)
 
-dnl AC_INIT(src/wmmp.c)
-dnl AM_INIT_AUTOMAKE(WMmp, 0.8.0)
-AC_INIT(WMmp, 0.10.0, shank@mercury.chem.pitt.edu)
+AC_INIT(WMmp, 0.10.0, nicolasherry@gmail.com)
 AC_CANONICAL_HOST
 AC_CANONICAL_TARGET
-AM_INIT_AUTOMAKE($PACKAGE_NAME, $PACKAGE_VERSION)
 
 AC_CONFIG_SRCDIR(src/wmmp.c)
 AM_CONFIG_HEADER(config.h)
+
+AM_INIT_AUTOMAKE
 
 dnl Checks for programs.
 AC_PROG_AWK
@@ -116,8 +115,8 @@ freebsd*)
   OS=freebsd
   ignore_wired=yes
   ignore_cached=yes
-  LIBS="$LIBS -lkvm"
-  SETGID_FLAGS="-g wheel -m 0755 -o root"
+dnl  LIBS="$LIBS -lkvm"
+dnl  SETGID_FLAGS="-g wheel -m 0755 -o root"
   ;;
 openbsd*)
   OS=openbsd
