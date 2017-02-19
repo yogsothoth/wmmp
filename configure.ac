@@ -1,7 +1,7 @@
 dnl Process this file with autoconf to produce a configure script.
 AC_PREREQ(2.52)
 
-AC_INIT(WMmp, 0.10.0, nicolasherry@gmail.com)
+AC_INIT(WMmp, 0.12.0, nicolasherry@gmail.com)
 AC_CANONICAL_HOST
 AC_CANONICAL_TARGET
 
