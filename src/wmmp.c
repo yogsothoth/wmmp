@@ -558,8 +558,6 @@ static void update_time(int tme) {
 	if(backlight == LIGHTON)
 		x = 50;
 
-	tme = tme;
-
 	if (tme < 6000)
 	{
 		sprintf(timestr,"%02d%02d",tme / 60, tme % 60);
