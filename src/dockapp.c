@@ -132,6 +132,11 @@ dockapp_open_window(char *display_specified, char *appname,
 
     /* Set WindowTitle for AfterStep Wharf */
     stat = XStringListToTextProperty(&appname, 1, &title);
+    if(stat == 0) {
+      // Not enough memory
+      fprintf(stderr, "%s: can't allocate memory for the window title!\n", argv[0]);
+      exit(1);
+    }
     XSetWMName(display, window, &title);
     XSetWMName(display, icon_window, &title);
 
