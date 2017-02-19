@@ -1,4 +1,11 @@
+ver 0.12.0 (2/19/2017)
+1) Fixed unused variables warnings
+2) Fixed default port (2100->6600)
+3) Fixed autotools warnings (deprecated calls)
+4) Updated version and contact information
+
 ver 0.11.0 (2/7/2017)
+
 1) Fixed mouse wheel support
 2) Changed network structures
 3) Finally prepared a proper release!
