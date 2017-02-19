@@ -217,14 +217,8 @@ int MpdGetTime() {
 }
 
 void MpdSetVolume(int v) {
-	int change;
-
 	if(!status || status->volume == MPD_STATUS_NO_VOLUME) return;
 
-	change = v-status->volume;
-	fprintf(stdout,"Target volume value %i\n",v);
-	//	mpd_sendVolumeCommand(connection,change);
-	//	mpd_sendSetvolCommand(connection,change);
 	mpd_sendSetvolCommand(connection,v);
 	if(connection->error) {
 		fprintf(stderr,"%s\n",connection->errorStr);
