@@ -1,12 +1,12 @@
 dnl Process this file with autoconf to produce a configure script.
-AC_PREREQ(2.52)
+AC_PREREQ([2.69])
 
-AC_INIT(WMmp, 0.12.0, nicolasherry@gmail.com)
+AC_INIT([WMmp],[0.12.0],[nicolasherry@gmail.com])
 AC_CANONICAL_HOST
 AC_CANONICAL_TARGET
 
 AC_CONFIG_SRCDIR(src/wmmp.c)
-AM_CONFIG_HEADER(config.h)
+AC_CONFIG_HEADERS([config.h])
 
 AM_INIT_AUTOMAKE
 
