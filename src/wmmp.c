@@ -49,6 +49,11 @@
 #define CPUNUM_NONE -1
 #define SEPARATOR " ** "
 
+#define DEFAULT_HOST "localhost"
+#define DEFAULT_PORT "6600"
+#define PACKAGE "WMmp"
+#define VERSION "0.13.0"
+
 typedef struct MpdInfos {
 	int shuffling;
 	int playing;

@@ -1,0 +1,16 @@
+cmake_minimum_required(VERSION 2.8)
+project(WMmp)
+
+set(WMmp_SRCS   src/dockapp.c
+		src/libmpdclient.c
+		src/mouse_regions.c
+		src/mpd_func.c
+		src/wmmp.c)
+
+add_executable(WMmp ${WMmp_SRCS})
+
+find_package(X11 REQUIRED)
+include_directories(${X11_INCLUDE_DIR})
+target_link_libraries(WMmp ${X11_LIBRARIES} ${X11_Xpm_LIB})
+
+set(CMAKE_C_FLAGS "-Oz")
