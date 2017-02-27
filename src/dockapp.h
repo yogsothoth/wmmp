@@ -1,6 +1,7 @@
 /*
  * Copyright (c) 1999 Alfredo K. Kojima
  * Copyright (c) 2001, 2002 Seiichi SATO <ssato@sh.rim.or.jp>
+ * Copyright (c) 2017 Nicolas Herry <nicolasherry@gmail.com>
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
