@@ -1,3 +1,5 @@
+Current maintainer Nicolas Herry <nicolasherry@gmail.com>
+
 Hacked for MPD by Warren Dukes <shank@mercury.chem.pitt.edu>
 Scroll Wheel patch by Ilia Mirkin
 
@@ -15,6 +17,3 @@ Mark Staggs <me@markstaggs.net>
 And also on wmapm by :
 Chris D. Faulhaber <jedgar@speck.ml.org>
 Michael G. Henderson <mghenderson@lanl.gov>
-
-Scroll wheel and network data structure changes by:
-Nicolas Herry <nicolasherry@gmail.com or kafka@madrognon.net>

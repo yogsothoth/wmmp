@@ -8,7 +8,7 @@ MPD >= 0.8.1
 
 compile:
 --------
-1) ./configure
+1) cmake -G "Unix Makefiles"
 2) make
 
 install:
@@ -19,11 +19,11 @@ run:
 ----
 
 1) Set environment variables MPD_HOST and MPD_PORT (this is probably good to
-put in your bashrc).
+put in the rc file for your shell).
 
 example:
 $ export MPD_HOST=localhost
-$ export MPD_PORT=2100
+$ export MPD_PORT=6600
 
 If you use a password to access MPD, then do:
 $ export MPD_HOST=password@localhost
