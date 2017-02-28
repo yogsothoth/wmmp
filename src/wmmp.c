@@ -1,5 +1,6 @@
 /*
- *    wmthrottle- A dockapp to throttle CPU via ACPI status
+ *    WMmp - Music Player Daemon client dockapp for Window Maker
+ *    Copyright (c) 2017 Nicolas Herry <nicolasherry@gmail.com>
  *    Copyright (C) 2002  Thomas Nemeth <tnemeth@free.fr>
  *
  *    Based on work by Seiichi SATO <ssato@sh.rim.or.jp>
@@ -48,6 +49,11 @@
 #define MAX_HISTORY 16
 #define CPUNUM_NONE -1
 #define SEPARATOR " ** "
+
+#define DEFAULT_HOST "localhost"
+#define DEFAULT_PORT "6600"
+#define PACKAGE "WMmp"
+#define VERSION "0.12.1"
 
 typedef struct MpdInfos {
 	int shuffling;
