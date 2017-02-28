@@ -1,5 +1,6 @@
 /*
- *    wmthrottle- A dockapp to throttle CPU via ACPI status
+ *    WMmp - Music Player Daemon client dockapp for Window Maker
+ *    Copyright (c) 2017 Nicolas Herry <nicolasherry@gmail.com>
  *    Copyright (C) 2002  Thomas Nemeth <tnemeth@free.fr>
  *
  *    Based on work by Seiichi SATO <ssato@sh.rim.or.jp>
