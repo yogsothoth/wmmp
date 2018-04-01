@@ -1,3 +1,6 @@
+vers 0.12.3
+1) Fixed the bin dir from . to ./bin
+
 vers 0.12.2
 1) Migrated to cmake
 2) Cleaned up old useless files
