@@ -1,6 +1,6 @@
 /*
  *    WMmp - Music Player Daemon client dockapp for Window Maker
- *    Copyright (c) 2017 Nicolas Herry <nicolasherry@gmail.com>
+ *    Copyright (c) 2017, 2018 Nicolas Herry <nicolasherry@gmail.com>
  *    Copyright (C) 2002  Thomas Nemeth <tnemeth@free.fr>
  *
  *    Based on work by Seiichi SATO <ssato@sh.rim.or.jp>
@@ -53,7 +53,7 @@
 #define DEFAULT_HOST "localhost"
 #define DEFAULT_PORT "6600"
 #define PACKAGE "WMmp"
-#define VERSION "0.12.2"
+#define VERSION "0.12.3"
 
 typedef struct MpdInfos {
 	int shuffling;
