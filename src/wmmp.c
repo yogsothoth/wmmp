@@ -53,7 +53,7 @@
 #define DEFAULT_HOST "localhost"
 #define DEFAULT_PORT "6600"
 #define PACKAGE "WMmp"
-#define VERSION "0.12.3"
+#define VERSION "0.12.4"
 
 typedef struct MpdInfos {
 	int shuffling;
