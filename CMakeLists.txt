@@ -7,6 +7,8 @@ set(WMmp_SRCS   src/dockapp.c
 		src/mpd_func.c
 		src/wmmp.c)
 
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
+
 add_executable(WMmp ${WMmp_SRCS})
 
 find_package(X11 REQUIRED)
