@@ -1,3 +1,6 @@
+vers 0.12.5
+1) Remove -Oz from CFLAGS in CMakeLists.txt as it breaks the build with gcc
+
 vers 0.12.4
 1) Version bump for build systems
 
