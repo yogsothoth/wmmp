@@ -1,3 +1,6 @@
+vers 0.12.6
+1) Fixed the path to manpage in CMakeLists.txt
+
 vers 0.12.5
 1) Remove -Oz from CFLAGS in CMakeLists.txt as it breaks the build with gcc
 
