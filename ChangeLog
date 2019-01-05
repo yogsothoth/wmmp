@@ -1,3 +1,12 @@
+vers 0.12.5
+1) Remove -Oz from CFLAGS in CMakeLists.txt as it breaks the build with gcc
+
+vers 0.12.4
+1) Version bump for build systems
+
+vers 0.12.3
+1) Fixed the bin dir from . to ./bin
+
 vers 0.12.2
 1) Migrated to cmake
 2) Cleaned up old useless files
